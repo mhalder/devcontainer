@@ -1,0 +1,13 @@
+{
+  "name": "Ubuntu Development Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/home/ubuntu/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "features": {},
+  "postCreateCommand": "echo Container ready!"
+}
